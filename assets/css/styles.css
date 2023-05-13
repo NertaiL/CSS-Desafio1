@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  display: flex;
+}
+/* aside por lo general se utilizan como barras laterales, asique perfecto.*/
+#aside {
+  width: 25%;
+  min-height: 100vh;
+}
+
+/* Nuestro Nav */
+#barraprincipal {
+  display: flex;
+  justify-content: space-around;
+  border: rgba(190, 185, 184, 0.349) solid 1px;
+  padding: 0.6rem;
+  background-color: rgb(241, 242, 246);
+}
+
+#barraprincipal img {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: rgba(71, 27, 58, 0.384) solid 1px;
+}
+
+.icono1 {
+  padding-right: 0.7rem;
+  margin-top: 0.1rem;
+}
+/* Partes del hover */
+.icono1:hover {
+  color: rgb(218, 219, 223);
+}
+
+.icono2:hover {
+  color: rgb(218, 219, 223);
+}
+
+.text-chicoo {
+  color: rgb(156, 176, 186);
+}
+
+.usuario {
+  display: flex;
+}
+
+#text-mayor {
+  padding: 4rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Boton de nuevo chat */
+
+#barraprincipalboton {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  border: rgba(190, 185, 184, 0.349) solid 1px;
+}
+
+button {
+  width: 13rem;
+  height: 3rem;
+  background-color: rgb(178, 161, 216);
+  border: none;
+  border-radius: 0.2rem;
+}
+/* Partes del hover */
+button:hover {
+  color: aliceblue;
+  background-color: rgba(178, 161, 216, 0.836);
+  cursor: pointer;
+}
+
+/* Friends Chat  */
+
+#barraprincipalchats img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: rgba(71, 27, 58, 0.384) solid 1px;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+}
+
+.textt {
+  margin-left: 1rem;
+}
+
+.text-chicoo {
+  margin-left: 1rem;
+}
+
+#barraprincipalchats {
+  display: flex;
+  justify-content: center;
+  border: rgba(190, 185, 184, 0.349) solid 1px;
+  min-height: 3.55rem;
+}
+/* Partes del hover */
+#barraprincipalchats:hover {
+  background-color: rgb(241, 242, 246);
+}
+
+#barraprincipalchats img {
+  border: rgba(0, 128, 0, 0.603) solid 2px;
+}
+
+.text {
+  display: flex;
+  justify-content: left;
+}
+
+.text-chico {
+  color: rgb(156, 176, 186);
+}
+.imagen1 {
+  display: flex;
+  align-items: center;
+  padding-right: 2.2rem;
+  padding: 1rem;
+}
+.text-grande {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Mensajeria de la aplicacion */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(241, 242, 246);
+}
+#barraprincipalmensajeria img {
+  width: 15rem;
+}
+
+.imagengrande {
+  display: flex;
+  justify-content: center;
+}
+
+.textgrande h3 {
+  display: flex;
+  justify-content: center;
+}
+
+/* intente de ocupar casi todo lo que hemos visto, como favicon,google font, si me falta algo me avisas, para incluirlo */

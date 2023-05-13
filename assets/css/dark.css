@@ -1,0 +1,28 @@
+* {
+  color: aliceblue;
+}
+
+body {
+  background-color: rgba(32, 28, 28, 0.699);
+}
+
+main {
+  background-color: rgba(32, 28, 28, 0.699);
+}
+
+#barraprincipal {
+  background-color: rgba(32, 28, 28, 0.699);
+}
+/* me costo mover esto:( porque en position relative se mueve uno y el otro no T_T  asique lo deje asi nomas */
+#dark-mode-toggle-1 {
+  position: relative;
+}
+
+.textt {
+  color: rgba(178, 161, 216, 0.836);
+}
+
+.text {
+  color: rgba(178, 161, 216, 0.836);
+}
+
